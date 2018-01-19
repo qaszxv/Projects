@@ -1,0 +1,23 @@
+.searchBar {
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  float: left; }
+  .searchBar input[type=text] {
+    width: 79%;
+    height: 50px;
+    float: left; 
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 1.5em; }
+  .searchBar input[type=submit] {
+    width: 20%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.5em;
+    float: left; }
+
+/*# sourceMappingURL=search.css.map */

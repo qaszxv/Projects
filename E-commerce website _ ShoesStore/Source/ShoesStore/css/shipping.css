@@ -1,0 +1,46 @@
+body { 
+  background-color: white; }
+
+.receiver {
+  border: 1px solid black;
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50px; }
+  .receiver h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .receiver h2 {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 40%;
+    float: left; }
+  .receiver input[type=text], .receiver input[type=number], .receiver textarea {
+    width: 40%;
+    margin-top: 20px;
+    height: 30px;
+    margin-right: 10%;
+    font-size: 1.3em; }
+  .receiver input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    width: 20%;
+    float: right;
+    margin-right: 10%; }
+  .receiver h3 {
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    width: 100%; }
+
+/*# sourceMappingURL=shipping.css.map */

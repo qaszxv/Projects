@@ -1,0 +1,17 @@
+.summer { 
+    //position: relative;
+    background-color: white; 
+    img {
+        padding-top: 100px;
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}

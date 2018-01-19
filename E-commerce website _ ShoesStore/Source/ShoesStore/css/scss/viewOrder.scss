@@ -1,0 +1,50 @@
+html {          
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+@import 'styles/base/variables';                     
+@import 'styles/base/placeholders'; 
+
+@import 'styles/base/reset';
+
+.checkout {
+    //border: 1px solid red;
+    float: left;
+    width: 60%; 
+    margin-top: 50px;
+    margin-left: 20%;
+    .summary {
+        float: left;
+        width: 100%;
+        border: 1px solid black;
+        h1 {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%; 
+            color: white; 
+            background-color: black;
+            font-size: 1.3em;
+        }
+        h2 {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .left {
+            margin-left: 5%; 
+            width: 70%; 
+            float: left;
+        }
+        .right {
+            margin-right: 5%;
+            text-align: right;
+        }
+    }
+}

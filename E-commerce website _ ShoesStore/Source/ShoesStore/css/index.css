@@ -1,0 +1,80 @@
+.first-ad2 { 
+  background-color: #f5f5f5;
+  position: relative;
+  z-index: -1; }
+  .first-ad2 figure {
+    position: absolute; }
+  .first-ad2 figure:nth-child(1) {
+    animation: xfade 21s 14s infinite; }
+  .first-ad2 figure:nth-child(2) {
+    animation: xfade 21s 7s infinite; }
+  .first-ad2 figure:nth-child(3) {
+    animation: xfade 21s 0s infinite;
+    position: relative; }
+  .first-ad2 img {
+    width: 100%;
+    padding-top: -40px;
+    display: block; }
+
+@keyframes xfade {
+  0% {
+    opacity: 1; }
+  10.5% {
+    opacity: 1; }
+  33% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.forher {
+  float: left;
+  background-color: white;
+  position: relative; }
+  .forher img {
+    position: relative;
+    width: 100%; }
+  .forher a {
+    position: relative;
+    text-decoration: none; }
+  .forher a:hover {
+    color: hotpink;
+    text-decoration: underline; }
+  .forher h3 {
+    text-align: center;
+    font-size: 1.2em; }
+  .forher h3:hover {
+    text-decoration-color: pink; }
+
+.models {
+  background-color: white;
+  overflow: hidden;
+  height: 400px;
+  width: 100%; }
+  .models img {
+    padding-top: 3px;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    animation: slideshow 15s linear infinite; }
+
+@keyframes slideshow {
+  0% {
+    left: 0; }
+  100% {
+    left: -177%; } }
+.summer {
+  background-color: white; }
+  .summer img {
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    display: block; }
+  .summer a {
+    text-align: center;
+    text-decoration: none; }
+  .summer a:hover {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+.first-ad { 
+    //margin-top: 20px;
+    //border: solid 1px red;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: -1;
+    figure {
+        position: absolute;
+    }
+    figure:nth-child(1) {
+        animation: xfade 21s 14s infinite;
+    }
+    figure:nth-child(2) {
+        animation: xfade 21s 7s infinite;
+    }
+    figure:nth-child(3) {
+        animation: xfade 21s 0s infinite;
+        position: relative;
+    }
+    img {
+        width: 100%;
+        padding-top: -40px; 
+        display: block;
+    }
+}
+
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   33%{
+      opacity: 0;
+   }
+   90% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}

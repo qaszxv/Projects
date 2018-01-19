@@ -1,0 +1,14 @@
+.summer {
+  background-color: white; }
+  .summer img {
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    display: block; }
+  .summer a {
+    text-align: center;
+    text-decoration: none; }
+  .summer a:hover {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=_summer.css.map */

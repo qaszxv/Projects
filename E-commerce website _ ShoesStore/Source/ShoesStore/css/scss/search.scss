@@ -1,0 +1,24 @@
+.searchBar {
+    //border: 1px solid red;
+    width: 80%; 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    margin-left: 10%; 
+    float: left;
+    input[type=text] {
+        width: 79%; 
+        height: 50px;
+        float: left;
+        border: 1px solid black;
+        font-size: 1.5em;
+    }
+    input[type=submit] {
+        width: 20%; 
+        height: 54px;
+        background-color: black; 
+        color: white;
+        border: 1px solid black;
+        font-size: 1.5em; 
+        float: left;
+    }
+}
