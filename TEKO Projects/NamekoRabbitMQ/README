@@ -1,0 +1,17 @@
+Nameko RabbitMQ Examples
+
+Prerequisites
+Python 3
+Elasticsearch 6.2.3
+
+Overview
+The program consist a service (A) to send messages and a service (B) that listen to messages.
+The message is send to Default Exchange by service A and then be foward to receiveQueue. 
+Service B listen to changes in receiveQueue and execute its function (save the message to Elasticsearch).
+
+
+How to run the application
+Start Elasticsearch Server.
+Run NamekoRabbitMQ/receiveProduct.py with Nameko to start listening.
+Run file sendProduct.py to send a message (product information) to Nameko.
+After listen to the message, Nameko then check and write the message to Elasticsearch.
